@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "577559485923",
+    "project_id": "flutter-estonia-demo-2",
+    "storage_bucket": "flutter-estonia-demo-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577559485923:android:1ac94c266e42ae529e54d6",
+        "android_client_info": {
+          "package_name": "com.example.eesti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577559485923-mip5c101hg3conaja5q4ou88891ibr6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARtj0dJf3NmPsFm2SrKy-tLSiYUbma4ik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577559485923-mip5c101hg3conaja5q4ou88891ibr6d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "577559485923-rsuee7r0po23bh5qec894t84mrvdc693.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterEstonia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577559485923:android:b5d50bbada2ad07f9e54d6",
+        "android_client_info": {
+          "package_name": "com.example.flutter_estonia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577559485923-mip5c101hg3conaja5q4ou88891ibr6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARtj0dJf3NmPsFm2SrKy-tLSiYUbma4ik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577559485923-mip5c101hg3conaja5q4ou88891ibr6d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "577559485923-rsuee7r0po23bh5qec894t84mrvdc693.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterEstonia"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

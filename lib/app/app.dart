@@ -1,0 +1,34 @@
+import 'package:eesti/ui/bottom_sheets/notice/notice_sheet.dart';
+import 'package:eesti/ui/dialogs/info_alert/info_alert_dialog.dart';
+import 'package:eesti/ui/views/home/home_view.dart';
+import 'package:eesti/ui/views/startup/startup_view.dart';
+import 'package:stacked/stacked_annotations.dart';
+import 'package:stacked_services/stacked_services.dart';
+import 'package:eesti/services/firebase_service.dart';
+import 'package:eesti/services/giphy_service.dart';
+// @stacked-import
+
+@StackedApp(
+  routes: [
+    MaterialRoute(page: HomeView),
+    MaterialRoute(page: StartupView),
+    // @stacked-route
+  ],
+  dependencies: [
+    LazySingleton(classType: BottomSheetService),
+    LazySingleton(classType: DialogService),
+    LazySingleton(classType: NavigationService),
+    LazySingleton(classType: FirebaseService),
+    LazySingleton(classType: GiphyService),
+// @stacked-service
+  ],
+  bottomsheets: [
+    StackedBottomsheet(classType: NoticeSheet),
+    // @stacked-bottom-sheet
+  ],
+  dialogs: [
+    StackedDialog(classType: InfoAlertDialog),
+    // @stacked-dialog
+  ],
+)
+class App {}
